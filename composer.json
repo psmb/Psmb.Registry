@@ -5,6 +5,7 @@
     "require": {
         "typo3/flow": "*"
     },
+    "license": "MIT",
     "autoload": {
         "psr-0": {
             "Psmb\\Registry": "Classes/"

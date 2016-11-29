@@ -2,6 +2,8 @@
 
 This package provides you with a registry service and an Eel helper to get and set values on it.
 
+Installation: `composer require psmb/registry`
+
 Example:
 
 ```

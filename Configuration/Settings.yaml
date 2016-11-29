@@ -1,0 +1,4 @@
+TYPO3:
+  TypoScript:
+    defaultContext:
+      'Registry': 'Psmb\Registry\Eel\RegistryHelper'

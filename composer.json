@@ -1,0 +1,18 @@
+{
+    "description": "Global registry of things with an Eel helper",
+    "type": "neos-package",
+    "name": "psmb/registry",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Psmb\\Registry": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Psmb.Registry"
+        }
+    }
+}

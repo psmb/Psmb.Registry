@@ -2,7 +2,7 @@
 namespace Psmb\Registry\Eel;
 
 use Neos\Flow\Annotations as Flow;
-use TYPO3\Eel\ProtectedContextAwareInterface;
+use Neos\Eel\ProtectedContextAwareInterface;
 use Psmb\Registry\Service\RegistryService;
 
 /**

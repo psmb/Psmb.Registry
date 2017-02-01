@@ -3,7 +3,7 @@
     "type": "neos-package",
     "name": "psmb/registry",
     "require": {
-        "typo3/flow": "~3.0"
+        "typo3/flow": "~4.0"
     },
     "license": "MIT",
     "autoload": {

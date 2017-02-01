@@ -1,7 +1,7 @@
 <?php
 namespace Psmb\Registry\Service;
 
-use TYPO3\Flow\Annotations as Flow;
+use Neos\Flow\Annotations as Flow;
 
 /**
  * Global regsitry of misc stuff

@@ -1,8 +1,8 @@
 <?php
 namespace Psmb\Registry\Eel;
 
-use TYPO3\Flow\Annotations as Flow;
-use TYPO3\Eel\ProtectedContextAwareInterface;
+use Neos\Flow\Annotations as Flow;
+use Neos\Eel\ProtectedContextAwareInterface;
 use Psmb\Registry\Service\RegistryService;
 
 /**

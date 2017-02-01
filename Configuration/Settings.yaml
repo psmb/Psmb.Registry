@@ -1,4 +1,5 @@
-TYPO3:
-  TypoScript:
+
+Neos:
+  Fusion:
     defaultContext:
-      'Registry': 'Psmb\Registry\Eel\RegistryHelper'
+      Registry: Psmb\Registry\Eel\RegistryHelper

@@ -1,13 +1,8 @@
 <?php
 namespace Psmb\Registry\Eel;
 
-<<<<<<< Updated upstream
 use TYPO3\Flow\Annotations as Flow;
 use TYPO3\Eel\ProtectedContextAwareInterface;
-=======
-use Neos\Eel\ProtectedContextAwareInterface;
-use Neos\Flow\Annotations as Flow;
->>>>>>> Stashed changes
 use Psmb\Registry\Service\RegistryService;
 
 /**

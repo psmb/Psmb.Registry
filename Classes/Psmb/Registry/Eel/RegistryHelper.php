@@ -35,6 +35,20 @@ class RegistryHelper implements ProtectedContextAwareInterface
     }
 
     /**
+     * Atomically sets key to value and returns the old value stored at key.
+     *
+     * @param string $key
+     * @param mixed $value
+     * @return mixed
+     */
+    public function getset(string $key, $value)
+    {
+        $previousValue = $this->registryService->getRegister($key);
+        $this->registryService->setRegister($key, $value);
+        return $previousValue;
+    }
+
+    /**
      * @param $key
      * @return int
      */

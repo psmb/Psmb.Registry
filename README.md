@@ -2,9 +2,13 @@
 
 This package provides you with a registry service and an Eel helper to get and set values on it.
 
-Installation: `composer require psmb/registry`
+## Installation
 
-Example:
+ `composer require psmb/registry`
+
+## Usage
+
+#### Example
 
 ```
 root = T:Collection {
@@ -17,3 +21,12 @@ root = T:Collection {
     }
 }
 ```
+
+The following methods are available:
+
+* **set(key, value):** Sets a value by key
+* **get(key):** Returns a value by key
+* **increment(key):** Increment a value by key
+* **decrement(key):** Derement a value by key
+
+A key can consist of a single string or a path, separated with dots which addresses a value in a nested array.

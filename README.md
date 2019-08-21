@@ -26,7 +26,9 @@ The following methods are available:
 
 * **set(key, value):** Sets a value by key
 * **get(key):** Returns a value by key
+* **getset(key, value):** Atomically sets key to value and returns the old value stored at key.
 * **increment(key):** Increment a value by key
 * **decrement(key):** Derement a value by key
+
 
 A key can consist of a single string or a path, separated with dots which addresses a value in a nested array.
